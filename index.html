@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── SEO ── -->
+  <title>Jungle Wave — Creative Technologist & Developer</title>
+  <meta name="description" content="Creative Technologist and Developer crafting bold digital experiences at the intersection of code and design." />
+  <meta name="keywords" content="Jugnle Wave, state of the art wave tech and progression." />
+  <meta name="author" content="Jungle Wave" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yoursite.com/" />
+
+  <!-- ── Open Graph / Social ── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://yoursite.com/" />
+  <meta property="og:title"       content="Jungle Wave" />
+  <meta property="og:description" content="Crafting bold digital experiences at the intersection of code and design." />
+  <meta property="og:image"       content="https://yoursite.com/og-image.jpg" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale"      content="en_US" />
+  <meta property="og:site_name"   content="Jungle Wave Portfolio" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@yourhandle" />
+  <meta name="twitter:creator"     content="@yourhandle" />
+  <meta name="twitter:title"       content="Jungle Wave — Creative Technologist" />
+  <meta name="twitter:description" content="Crafting bold digital experiences at the intersection of code and design." />
+  <meta name="twitter:image"       content="https://yoursite.com/og-image.jpg" />
+
+  <!-- ── Structured Data (JSON-LD) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jungle Wave",
+    "url": "https://yoursite.com",
+    "jobTitle": "Creative Technologist & Developer",
+    "sameAs": [
+      "https://github.com/yourhandle",
+      "https://linkedin.com/in/yourhandle",
+      "https://twitter.com/yourhandle"
+    ]
+  }
+  </script>
+
+  <!-- ── Favicons ── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2362ccf0'/><text x='5' y='24' font-size='18' font-family='monospace' fill='white'>JW</text></svg>" />
+  <link rel="apple-touch-icon"          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%2362ccf0'/><text x='22' y='130' font-size='90' font-family='monospace' fill='white'>JW</text></svg>" />
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- ── Performance hints ── -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Skip to main content (a11y) -->
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- Custom cursor -->
+<div class="cursor" aria-hidden="true"><div class="cursor-dot"></div></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ─── NAVBAR ─── -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <a href="#hero" class="nav-logo" aria-label="Home">
+    <!-- Replace .nav-logo-placeholder with <img src="your-logo.svg" alt="Jungle Wave" /> -->
+    <span class="nav-logo-placeholder" aria-hidden="true">Logo</span>
+  </a>
+  <div class="nav-links" role="menubar">
+    <a href="#hero"     role="menuitem">Home</a>
+    <a href="#work"     role="menuitem">Work</a>
+    <a href="#bio"      role="menuitem">About</a>
+    <a href="#services" role="menuitem">Services</a>
+    <a href="#process"  role="menuitem">Process</a>
+    <a href="#journal"  role="menuitem">Journal</a>
+    <a href="#contact"  role="menuitem">Contact</a>
+  </div>
+  <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile nav overlay -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="#hero">Home</a>
+  <a href="#work">Work</a>
+  <a href="#bio">About</a>
+  <a href="#services">Services</a>
+  <a href="#process">Process</a>
+  <a href="#journal">Journal</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main id="main">
+
+  <!-- ─── HERO ─── -->
+  <section id="hero" aria-label="Hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-noise" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Creative Technologist &amp; Developer</p>
+      <h1 class="hero-name">JUNGLE<br><span class="accent">WAVE</span></h1>
+      <p class="hero-sub">Creative Technologist and Developer crafting bold digital experiences at the intersection of code and design.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── MARQUEE ─── -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item accent-dot">Creative Technology</span>
+      <span class="marquee-item">Interactive Design</span>
+      <span class="marquee-item accent-dot">Full-Stack Dev</span>
+      <span class="marquee-item">Motion &amp; Animation</span>
+      <span class="marquee-item accent-dot">WebGL &amp; Canvas</span>
+      <span class="marquee-item">UI Engineering</span>
+      <span class="marquee-item accent-dot">Creative Technology</span>
+      <span class="marquee-item">Interactive Design</span>
+      <span class="marquee-item accent-dot">Full-Stack Dev</span>
+      <span class="marquee-item">Motion &amp; Animation</span>
+      <span class="marquee-item accent-dot">WebGL &amp; Canvas</span>
+      <span class="marquee-item">UI Engineering</span>
+    </div>
+  </div>
+
+  <!-- ─── WORK ─── -->
+  <div id="work" aria-labelledby="work-heading">
+    <div style="max-width:1200px; margin:0 auto 48px; padding:0 40px;">
+      <p class="section-label reveal">Selected Work</p>
+      <h2 class="section-title reveal" id="work-heading">Projects<br>That Shipped</h2>
+    </div>
+    <div class="work-grid" role="list">
+
+      <article class="work-card reveal" role="listitem" tabindex="0" aria-label="Project: Kinetic Dashboard">
+        <canvas class="work-card-canvas" data-card="0" aria-hidden="true"></canvas>
+        <div class="work-card-inner">
+          <div class="work-card-info">
+            <p class="work-card-tag">Web App</p>
+            <h3 class="work-card-title">Kinetic Dashboard</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" role="listitem" tabindex="0" aria-label="Project: Generative Typeface">
+        <canvas class="work-card-canvas" data-card="1" aria-hidden="true"></canvas>
+        <div class="work-card-inner">
+          <div class="work-card-info">
+            <p class="work-card-tag">Design Tool</p>
+            <h3 class="work-card-title">Generative Typeface</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" role="listitem" tabindex="0" aria-label="Project: Sound Mapping">
+        <canvas class="work-card-canvas" data-card="2" aria-hidden="true"></canvas>
+        <div class="work-card-inner">
+          <div class="work-card-info">
+            <p class="work-card-tag">Creative Dev</p>
+            <h3 class="work-card-title">Sound Mapping</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card reveal" role="listitem" tabindex="0" aria-label="Project: Interactive Narrative">
+        <canvas class="work-card-canvas" data-card="3" aria-hidden="true"></canvas>
+        <div class="work-card-inner">
+          <div class="work-card-info">
+            <p class="work-card-tag">Storytelling</p>
+            <h3 class="work-card-title">Interactive Narrative</h3>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ─── BIO ─── -->
+  <section id="bio" aria-labelledby="bio-heading">
+    <div class="bio-visual reveal">
+      <canvas class="bio-visual-canvas" id="bio-canvas" aria-hidden="true"></canvas>
+      <div class="bio-badge" aria-hidden="true">Est. 2016</div>
+    </div>
+    <div class="bio-text">
+      <p class="section-label reveal">About Me</p>
+      <h2 class="reveal" id="bio-heading">Crafting the<br>Future, Now</h2>
+      <p class="reveal">I'm a Creative Technologist and Developer with a passion for building digital experiences that sit at the bold intersection of engineering and design. I believe code is a creative medium — not just a functional one.</p>
+      <p class="reveal">Based in Bali, working globally. I've shipped products for startups, agencies, and artists across three continents. My work spans interactive installations, data visualization, web apps, and generative media.</p>
+      <div class="bio-stats reveal" aria-label="Key statistics">
+        <div>
+          <div class="stat-num" aria-label="8 plus years experience">8+</div>
+          <div class="stat-label">Years Exp.</div>
+        </div>
+        <div>
+          <div class="stat-num" aria-label="60 plus projects shipped">60+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div>
+          <div class="stat-num" aria-label="3 continents">3</div>
+          <div class="stat-label">Continents</div>
+        </div>
+      </div>
+      <div class="skills-list reveal" aria-label="Skills">
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Three.js</span>
+        <span class="skill-tag">WebGL</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Canvas API</span>
+        <span class="skill-tag">Generative AI</span>
+        <span class="skill-tag">Motion Design</span>
+        <span class="skill-tag">Creative Coding</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="contact-inner">
+      <p class="section-label reveal">Let's Build Together</p>
+      <h2 class="reveal" id="contact-heading">Got an idea?<br>Let's talk.</h2>
+      <p class="reveal">Open to freelance projects, collaborations, and full-time opportunities. Drop me a line.</p>
+      <a href="mailto:hello@yoursite.com" class="contact-email reveal">hello@yoursite.com</a>
+      <div class="social-links reveal" role="list" aria-label="Social links">
+        <a href="https://github.com/yourhandle"    class="social-link" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+        <a href="https://linkedin.com/in/yourhandle" class="social-link" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+        <a href="https://twitter.com/yourhandle"   class="social-link" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile">Twitter</a>
+        <a href="https://dribbble.com/yourhandle"  class="social-link" role="listitem" target="_blank" rel="noopener noreferrer" aria-label="Dribbble profile">Dribbble</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ─── FOOTER ─── -->
+<footer role="contentinfo">
+  <a href="#hero" class="footer-logo" aria-label="Back to top">Jungle <span>Wave</span></a>
+  <p class="footer-copy">© <span id="year"></span> Jungle Wave. All rights reserved.</p>
+  <nav class="footer-links" aria-label="Footer links">
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="mailto:hello@yoursite.com">Email</a>
+  </nav>
+</footer>
+
+<!-- Back to top -->
+<button id="btt" aria-label="Back to top" title="Back to top">↑</button>
+
+<!-- ── Scripts ── -->
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
